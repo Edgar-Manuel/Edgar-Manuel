@@ -115,7 +115,7 @@ Sistema completo de **ingestion + RAG + knowledge graph** sobre canales de YouTu
 
 ---
 
-### 📚 [bookforge-ai](https://github.com/Edgar-Manuel/bookforge-ai) — *Pipeline IA de generación de eBooks*
+### 📚 [ebookforge-ai](https://github.com/Edgar-Manuel/bookforge-ai) — *Pipeline IA de generación de eBooks*
 
 Plataforma full-stack que automatiza la creación de eBooks profesionales para Amazon KDP en 8 pasos: validación de nicho → outline → escritura de capítulos → formato → portada → estrategia de precios → marketing. **Cost optimizer** que elige el modelo correcto por paso (Haiku/Sonnet/Opus), **prompt caching** que reduce el coste de capítulos 2-N en un 90%.
 
@@ -123,7 +123,7 @@ Plataforma full-stack que automatiza la creación de eBooks profesionales para A
 
 ---
 
-### 🤖 [birthday-ai](https://github.com/Edgar-Manuel/birthday-ai) — *SaaS multi-agente para cumpleaños*
+### 🤖 [cumple](https://github.com/Edgar-Manuel/birthday-ai) — *SaaS multi-agente para cumpleaños*
 
 Plataforma con **4 agentes IA especializados** (coordinador, generador de mensajes, recomendador de regalos, social) que orquestan recordatorios, sugerencias personalizadas y mensajes para los cumpleaños de tus contactos. Integraciones con Google Calendar, WhatsApp Business y Amazon Associates.
 
@@ -143,7 +143,7 @@ Plataforma de análisis de mercado cripto con **orquestación multi-LLM** (Groq,
 
 ---
 
-### 💇 [smart-salon](https://github.com/Edgar-Manuel/smart-salon) — *Asistente IA para peluquería*
+### 💇 [peluqueria-cool](https://github.com/Edgar-Manuel/smart-salon) — *Asistente IA para peluquería*
 
 Web de reservas + **asistente conversacional por WhatsApp** para un negocio real. La IA agenda citas en lenguaje natural, resuelve dudas sobre servicios y envía recordatorios automáticos. Sustituye la agenda de papel por un sistema integrado.
 
@@ -151,9 +151,9 @@ Web de reservas + **asistente conversacional por WhatsApp** para un negocio real
 
 ---
 
-### 📺 [repo-pulse](https://github.com/Edgar-Manuel/repo-pulse) — *Directorio IA de repos*
+### 📺 [3d64rr3p0s](https://github.com/Edgar-Manuel/repo-pulse) — *Directorio IA de repos*
 
-Directorio curado de **1.560 repositorios** con chat IA integrado (Groq + Llama 3.3 70B), análisis de "salud" de proyectos en tiempo real con GitHub API, y auto-sync semanal desde un canal de YouTube via GitHub Actions. **En producción** en Vercel.
+Directorio curado de **1.560 repositorios** con chat IA integrado (Groq + Llama 3.3 70B), análisis de "salud" de proyectos en tiempo real con GitHub API, y auto-sync semanal desde un canal de YouTube via GitHub Actions. **En producción** en Vercel. (3d64rr3p0s.vercel.app)
 
 `Next.js 15` · `Groq Llama 3.3` · `GitHub Actions` · `Tailwind` · `Shadcn/ui` · `Framer Motion`
 
