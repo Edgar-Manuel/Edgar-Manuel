@@ -5,21 +5,25 @@ Para usar: copiar este contenido y reemplazar el README.md del repo
 Edgar-Manuel/Edgar-Manuel
 ====================================================================
 
-NOTAS ANTES DE PEGAR:
-1. Los nombres de proyectos asumen los renames del plan:
-   - tubethink (antes NewRepositor)
-   - repo-pulse (antes Manuagi-repo)
-   - bookforge-ai (antes Ebook)
-   - birthday-ai (antes cumple)
-   - smart-salon (antes peluqueria-cool)
-   - gymbro (antes Gymbro-)
-   - 50-side-quests (antes Mision-secundaria)
-   - codice-azul (antes C-digo-Azul-)
-   Si decides NO renombrar alguno, ajusta los enlaces a su nombre actual.
+NOMBRES FINALES DE REPOS (decisión de Edgar):
+   - tubethink       (antes NewRepositor)
+   - ebookforge-ai   (antes Ebook)
+   - cumple          (sin renombrar — se mantiene)
+   - simulacrum-2.0  (sin cambios)
+   - peluqueria-cool (sin renombrar — se mantiene)
+   - 3d64rr3p0s      (antes Manuagi-repo) — match con su URL de Vercel
+   - codice-azul     (antes C-digo-Azul-)
+   - gymbro          (antes Gymbro-)
+   - 50-side-quests  (antes Mision-secundaria)
+
+NOTAS:
+1. Si algún repo aún no está renombrado en GitHub, los enlaces de abajo
+   darán 404 hasta que hagas el rename. GitHub redirige automáticamente
+   desde el nombre antiguo, así que puedes hacerlo en cualquier momento.
 
 2. Las stats badges (github-readme-stats, streak) son de servicios gratuitos
    ampliamente usados, pero pueden caerse ocasionalmente. Si no cargan,
-   reinicia o cambia al servidor backup. No es problema tuyo.
+   reinicia o cambia al servidor backup.
 
 3. La URL de LinkedIn (edgar-manchón) la dejé como estaba — si la cambias
    o tienes una nueva, sustitúyela.
@@ -82,12 +86,14 @@ Hoy me especializo en **arquitecturas con agentes IA**: multi-LLM orchestration,
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![LangChain](https://img.shields.io/badge/Agent--Zero-AI%20Agents-FF6B6B?style=flat-square)
 
-### Backend
+### Backend & BaaS
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E?style=flat-square&logo=appwrite&logoColor=white)
+![InsForge](https://img.shields.io/badge/InsForge-008ABC?style=flat-square&logoColor=white)
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
@@ -115,7 +121,7 @@ Sistema completo de **ingestion + RAG + knowledge graph** sobre canales de YouTu
 
 ---
 
-### 📚 [ebookforge-ai](https://github.com/Edgar-Manuel/bookforge-ai) — *Pipeline IA de generación de eBooks*
+### 📚 [ebookforge-ai](https://github.com/Edgar-Manuel/ebookforge-ai) — *Pipeline IA de generación de eBooks*
 
 Plataforma full-stack que automatiza la creación de eBooks profesionales para Amazon KDP en 8 pasos: validación de nicho → outline → escritura de capítulos → formato → portada → estrategia de precios → marketing. **Cost optimizer** que elige el modelo correcto por paso (Haiku/Sonnet/Opus), **prompt caching** que reduce el coste de capítulos 2-N en un 90%.
 
@@ -123,7 +129,7 @@ Plataforma full-stack que automatiza la creación de eBooks profesionales para A
 
 ---
 
-### 🤖 [cumple](https://github.com/Edgar-Manuel/birthday-ai) — *SaaS multi-agente para cumpleaños*
+### 🤖 [cumple](https://github.com/Edgar-Manuel/cumple) — *SaaS multi-agente para cumpleaños*
 
 Plataforma con **4 agentes IA especializados** (coordinador, generador de mensajes, recomendador de regalos, social) que orquestan recordatorios, sugerencias personalizadas y mensajes para los cumpleaños de tus contactos. Integraciones con Google Calendar, WhatsApp Business y Amazon Associates.
 
@@ -143,7 +149,7 @@ Plataforma de análisis de mercado cripto con **orquestación multi-LLM** (Groq,
 
 ---
 
-### 💇 [peluqueria-cool](https://github.com/Edgar-Manuel/smart-salon) — *Asistente IA para peluquería*
+### 💇 [peluqueria-cool](https://github.com/Edgar-Manuel/peluqueria-cool) — *Asistente IA para peluquería*
 
 Web de reservas + **asistente conversacional por WhatsApp** para un negocio real. La IA agenda citas en lenguaje natural, resuelve dudas sobre servicios y envía recordatorios automáticos. Sustituye la agenda de papel por un sistema integrado.
 
@@ -151,9 +157,9 @@ Web de reservas + **asistente conversacional por WhatsApp** para un negocio real
 
 ---
 
-### 📺 [3d64rr3p0s](https://github.com/Edgar-Manuel/repo-pulse) — *Directorio IA de repos*
+### 📺 [3d64rr3p0s](https://github.com/Edgar-Manuel/3d64rr3p0s) — *Directorio IA de repos*
 
-Directorio curado de **1.560 repositorios** con chat IA integrado (Groq + Llama 3.3 70B), análisis de "salud" de proyectos en tiempo real con GitHub API, y auto-sync semanal desde un canal de YouTube via GitHub Actions. **En producción** en Vercel. (3d64rr3p0s.vercel.app)
+Directorio curado de **1.560 repositorios** con chat IA integrado (Groq + Llama 3.3 70B), análisis de "salud" de proyectos en tiempo real con GitHub API, y auto-sync semanal desde un canal de YouTube via GitHub Actions. **En producción** en [3d64rr3p0s.vercel.app](https://3d64rr3p0s.vercel.app/).
 
 `Next.js 15` · `Groq Llama 3.3` · `GitHub Actions` · `Tailwind` · `Shadcn/ui` · `Framer Motion`
 
