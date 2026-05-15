@@ -1,3 +1,31 @@
+<!--
+====================================================================
+README de perfil v2 — Reposicionamiento como AI Agent Engineer
+Para usar: copiar este contenido y reemplazar el README.md del repo
+Edgar-Manuel/Edgar-Manuel
+====================================================================
+
+NOTAS ANTES DE PEGAR:
+1. Los nombres de proyectos asumen los renames del plan:
+   - tubethink (antes NewRepositor)
+   - repo-pulse (antes Manuagi-repo)
+   - bookforge-ai (antes Ebook)
+   - birthday-ai (antes cumple)
+   - smart-salon (antes peluqueria-cool)
+   - gymbro (antes Gymbro-)
+   - 50-side-quests (antes Mision-secundaria)
+   - codice-azul (antes C-digo-Azul-)
+   Si decides NO renombrar alguno, ajusta los enlaces a su nombre actual.
+
+2. Las stats badges (github-readme-stats, streak) son de servicios gratuitos
+   ampliamente usados, pero pueden caerse ocasionalmente. Si no cargan,
+   reinicia o cambia al servidor backup. No es problema tuyo.
+
+3. La URL de LinkedIn (edgar-manchón) la dejé como estaba — si la cambias
+   o tienes una nueva, sustitúyela.
+====================================================================
+-->
+
 <div align="center">
 
 # Edgar Manuel
